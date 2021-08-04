@@ -1,23 +1,69 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Students',
+    component: () => import('../views/student/Students.vue')
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    path: '/students',
+    name: 'Students',
+    component: () => import('../views/student/Students.vue')
+  },
+  {
+    path: '/teachers',
+    name: 'Teachers',
+    component: () => import('../views/teacher/Teachers.vue'),
+  },
+  {
+    path: '/groups',
+    name: 'Groups',
+    component: () => import('../views/group/Groups.vue')
+  },
+  {
+    path: '/tolov',
+    name: 'Tolov',
+    component: () => import('../views/tolov/Tolov.vue')
+  },
+  {
+    path: '/students/student-edit',
+    name: 'edit',
+    component: () => import('../views/student/Modal.vue'), 
+  },
+  {
+    path: '/students/:id',
+    name: 'ViewStudent',
+    component: () => import('../views/student/ViewStudent.vue'), 
+  },
+  {
+    path: '/teachers/teacher-edit',
+    name: 'editTech',
+    component: () => import('../views/teacher/Modal.vue'), 
+  },
+  {
+    path: '/teachers/:id',
+    name: 'ViewTeacher',
+    component: () => import('../views/teacher/ViewTeacher.vue'), 
+  },
+  {
+    path: '/groups/:id',
+    name: 'ViewGroup',
+    component: () => import('../views/group/ViewGroup.vue'), 
+  },
+  {
+    path: '/groups/:id/:view',
+    name: 'ViewStudentGroup',
+    component: () => import('../views/group/ViewStudentGroup.vue'), 
+  },
+  {
+    path: '/tolov/:id',
+    name: 'TolovStudent',
+    component: () => import('../views/tolov/TolovStudent.vue'), 
+  },
 ]
 
 const router = new VueRouter({

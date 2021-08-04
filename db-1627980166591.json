@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "fan": [
+        "Matematika",
+        "Fizika",
+        "Informatika"
+      ],
+      "group": [
+        "1-guruh",
+        "2-guruh",
+        "3-guruh"
+      ],
+      "name": "Otabek",
+      "surname": "Umarov",
+      "phone": "+998998266113",
+      "address": "Namangan Viloyati",
+      "university": "TATU",
+      "parents": "Qirgizova Zuxraxon",
+      "parentsPhone": "+998990010667",
+      "id": 1
+    },
+    {
+      "fan": [
+        "Matematika",
+        "Fizika"
+      ],
+      "group": [
+        "2-guruh",
+        "2-guruh"
+      ],
+      "name": "Nozim",
+      "surname": "Dadamirzayev",
+      "phone": "+998993215654",
+      "address": "Namangan viloyati",
+      "university": "Temir yo'l instituti",
+      "parents": "Kamalova Xulkaroy",
+      "parentsPhone": "+998915477747",
+      "id": 2
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Otabek",
+      "surname": "Umarov"
+    }
+  ]
+}

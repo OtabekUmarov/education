@@ -1,0 +1,194 @@
+{
+  "students": [
+    {
+      "fan": [
+        "Matematika",
+        "Fizika",
+        "Informatika"
+      ],
+      "group": [
+        "1-guruh",
+        "2-guruh",
+        "3-guruh"
+      ],
+      "name": "Otabek",
+      "surname": "Umarov",
+      "phone": "+998998266113",
+      "address": "Namangan Viloyati",
+      "university": "TATU",
+      "parents": "Qirgizova Zuxraxon",
+      "parentsPhone": "+998990010667",
+      "date": "2021-08-04",
+      "id": 1
+    },
+    {
+      "fan": [
+        "Matematika",
+        "Fizika"
+      ],
+      "group": [
+        "2-guruh",
+        "2-guruh"
+      ],
+      "name": "Nozimbek",
+      "surname": "Dadamirzayev",
+      "phone": "+998993215654",
+      "address": "Namangan viloyati",
+      "university": "Temir yo'l instituti",
+      "parents": "Kamalova Xulkaroy",
+      "parentsPhone": "+998915477748",
+      "date": "2021-08-04",
+      "id": 2
+    },
+    {
+      "fan": [
+        "Informatika"
+      ],
+      "group": [
+        "1-guruh"
+      ],
+      "name": "Aziz",
+      "surname": "Berdiyev",
+      "phone": "+998995236551",
+      "address": "Toshkent viloyati",
+      "university": "TDPU",
+      "parents": "Aliyev Bahodir",
+      "parentsPhone": "+998942663652",
+      "date": "2021-08-04",
+      "id": 3
+    },
+    {
+      "fan": [
+        "Fizika"
+      ],
+      "group": [
+        "2-guruh"
+      ],
+      "name": "Alisher",
+      "surname": "Abdullayev",
+      "phone": "+998991234567",
+      "address": "Namangan",
+      "university": "NamDU",
+      "parents": "Alimboyev Ravshan",
+      "parentsPhone": "+998991237654",
+      "date": "2021-08-04",
+      "id": 4
+    },
+    {
+      "fan": [
+        "Fizika"
+      ],
+      "group": [
+        "2-guruh"
+      ],
+      "name": "Rahmonova",
+      "surname": "Aziza",
+      "phone": "+998991234568",
+      "address": "Namangan",
+      "university": "NamDU",
+      "parents": "Rahmonov Rustam",
+      "parentsPhone": "+998995461237",
+      "date": "2021-08-04",
+      "id": 5
+    },
+    {
+      "fan": [
+        "Matematika"
+      ],
+      "group": [
+        "1-guruh"
+      ],
+      "name": "Oybek",
+      "surname": "Davronov",
+      "phone": "+998911234567",
+      "address": "Namangan",
+      "university": "ADMI",
+      "parents": "Shuhratov Anvar",
+      "parentsPhone": "+998935551269",
+      "date": "2021-08-04",
+      "id": 6
+    }
+  ],
+  "teachers": [
+    {
+      "fan": [
+        "Matematika",
+        "Fizika"
+      ],
+      "name": "Abror",
+      "surname": "Inomiddinov",
+      "phone": "+998913699661",
+      "address": "Namangan viloyati",
+      "gender": "Erkak",
+      "id": 1
+    },
+    {
+      "fan": [
+        "Rus tili",
+        "Ingliz tili"
+      ],
+      "surname": "Adashev",
+      "name": "Akmal",
+      "phone": "+998998203116",
+      "address": "Namangan viloyati",
+      "gender": "Erkak",
+      "id": 2
+    }
+  ],
+  "groups": [
+    {
+      "fan": "Fizika",
+      "guruh": "2-guruh",
+      "teacher": "Abror Inomiddinov",
+      "id": 1
+    },
+    {
+      "fan": "Ingliz tili",
+      "guruh": "3-guruh",
+      "teacher": "Akmal Adashev",
+      "id": 2
+    },
+    {
+      "fan": "Ingliz tili",
+      "guruh": "2-guruh",
+      "teacher": "Akmal Adashev",
+      "id": 3
+    },
+    {
+      "fan": "Fizika",
+      "guruh": "3-guruh",
+      "teacher": "Abror Inomiddinov",
+      "id": 4
+    },
+    {
+      "fan": "Matematika",
+      "guruh": "2-guruh",
+      "teacher": "Abror Inomiddinov",
+      "id": 5
+    },
+    {
+      "fan": "Matematika",
+      "guruh": "3-guruh",
+      "teacher": "Abror Inomiddinov",
+      "id": 6
+    },
+    {
+      "fan": "Informatika",
+      "guruh": "1-guruh",
+      "teacher": "Abror Inomiddinov",
+      "id": 7
+    },
+    {
+      "fan": "Informatika",
+      "guruh": "3-guruh",
+      "teacher": "Abror Inomiddinov",
+      "id": 8
+    },
+    {
+      "fan": "Koreys Tili",
+      "guruh": "1-guruh",
+      "teacher": "Akmal Adashev",
+      "id": 9
+    }
+  ]
+}

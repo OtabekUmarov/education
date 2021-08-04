@@ -1,32 +1,42 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <Menu />
+    <div class="top">
+      <button class="open__modal" @click="open()"><img src="./assets/img/menu-button.png" alt=""></button>
+      <router-link class="home__link" to="/">
+        <div class="logo">
+          <img class="logo1" src="./assets/img/logo1.png" alt="">
+          <img class="logo2" src="./assets/img/logo2.png" alt="">
+        </div>
+        <div class="logo__text">
+          <img src="./assets/img/eduAdmin.png" alt="">
+        </div>
+      </router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
-
+<script>
+  import Menu from './views/Menu'
+  import {eventEmitter} from './main'
+  export default {
+    name: 'App',
+    data: () => ({}),
+    methods: {
+      open(){
+        eventEmitter.$emit('menu')
+      }
+    },
+    components: {
+      Menu
+    },
+    created(){
+      this.$store.dispatch('students')
+      this.$store.dispatch('teachers')
+      this.$store.dispatch('groups')
+    }
+  };
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  @import url(./assets/css/style.css);
 </style>
