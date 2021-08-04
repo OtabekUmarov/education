@@ -49,6 +49,9 @@ body {
 input {
   outline: none;
 }
+input:focus {
+  box-shadow: 0px 0px 10px #118AB2;
+}
 a {
   text-decoration: none;
   transition: 0.3s;
@@ -207,6 +210,10 @@ ul {
   border-radius: 12px;
   width: 100%;
   margin-bottom: 8px;
+  transition: 0.3s;
+}
+.student:hover {
+  transform: scale(1.05);
 }
 .student .name {
   font-size: 18px;
@@ -337,6 +344,10 @@ input[type=checkbox] {
   border-radius: 12px;
   min-height: 235px;
   position: relative;
+  transition: 0.3s;
+}
+.group__item:hover {
+  transform: scale(1.08);
 }
 .group__item.gr::after {
   content: "";
@@ -364,6 +375,11 @@ input[type=checkbox] {
   font-size: 20px;
   line-height: 30px;
   color: #118AB2;
+  transition: 0.3s;
+}
+.group__item .btn:hover {
+  background-color: #118AB2;
+  color: #fff;
 }
 .groups a {
   color: #000;
@@ -374,6 +390,7 @@ input[type=checkbox] {
   padding: 35px;
   min-height: 180px;
   position: relative;
+  transition: 0.3s;
 }
 .month::after {
   content: "";
@@ -406,6 +423,9 @@ input[type=checkbox] {
   padding-left: 5px;
   border-radius: 5px;
   border: 1px solid #118AB2;
+}
+.month:hover {
+  transform: scale(1.06);
 }
 /* ----- groups-view----- */
 

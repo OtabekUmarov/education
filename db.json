@@ -107,6 +107,23 @@
       "parentsPhone": "+998935551269",
       "date": "2021-08-04",
       "id": 6
+    },
+    {
+      "fan": [
+        "Ingliz tili"
+      ],
+      "group": [
+        "1-guruh"
+      ],
+      "name": "Nodir",
+      "surname": "Akmalov",
+      "phone": "+998991234568",
+      "address": "Toshkent",
+      "university": "TATU",
+      "parents": "Alimov Anvar",
+      "parentsPhone": "+998995678553",
+      "date": "2021-08-03",
+      "id": 7
     }
   ],
   "teachers": [
@@ -133,6 +150,18 @@
       "address": "Namangan viloyati",
       "gender": "Erkak",
       "id": 2
+    },
+    {
+      "fan": [
+        "Koreys Tili",
+        "Rus tili"
+      ],
+      "name": "Mohir",
+      "surname": "Dostonov",
+      "phone": "+998941556441",
+      "address": "Toshkent",
+      "gender": "Erkak",
+      "id": 3
     }
   ],
   "groups": [
@@ -143,34 +172,10 @@
       "id": 1
     },
     {
-      "fan": "Ingliz tili",
-      "guruh": "3-guruh",
-      "teacher": "Akmal Adashev",
-      "id": 2
-    },
-    {
-      "fan": "Ingliz tili",
-      "guruh": "2-guruh",
-      "teacher": "Akmal Adashev",
-      "id": 3
-    },
-    {
-      "fan": "Fizika",
-      "guruh": "3-guruh",
-      "teacher": "Abror Inomiddinov",
-      "id": 4
-    },
-    {
       "fan": "Matematika",
       "guruh": "2-guruh",
       "teacher": "Abror Inomiddinov",
       "id": 5
-    },
-    {
-      "fan": "Matematika",
-      "guruh": "3-guruh",
-      "teacher": "Abror Inomiddinov",
-      "id": 6
     },
     {
       "fan": "Informatika",
@@ -185,7 +190,7 @@
       "id": 8
     },
     {
-      "fan": "Koreys Tili",
+      "fan": "Ingliz tili",
       "guruh": "1-guruh",
       "teacher": "Akmal Adashev",
       "id": 9

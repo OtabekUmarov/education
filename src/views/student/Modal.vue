@@ -54,9 +54,7 @@
           <div class="box box2">
             <div class="title">Fan nomi:</div>
             <select v-model="fan">
-              <option value="Matematika">Matematika</option>
-              <option value="Fizika">Fizika</option>
-              <option value="Informatika">Informatika</option>
+              <option v-for="(fan,index) of fanlar" :key="index" :value="fan">{{fan}}</option>
             </select>
             <div class="title">Guruh raqami:</div>
             <select v-model="group">
@@ -85,7 +83,8 @@ import axios from 'axios'
       },
       isShow: false,
       fan: '',
-      group: ''
+      group: '',
+      fanlar: ['Matematika', 'Fizika', 'Informatika', 'Ingliz tili', 'Rus tili', 'Koreys Tili'],
     }),
     methods: {
       edit(){

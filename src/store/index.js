@@ -91,10 +91,10 @@ export default new Vuex.Store({
       state.teachers = payload
     },
     student(state,payload){
-      state.students.push(payload)
+      state.students.unshift(payload)
     },
     teacher(state,payload){
-      state.teachers.push(payload)
+      state.teachers.unshift(payload)
     },
     group(state,payload){
       state.groups.unshift(payload)

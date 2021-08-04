@@ -17,7 +17,7 @@
         </router-link>
       </div>
       <div class="student" v-for="s of teachers" :key="s.id">
-        <router-link :to="{name: 'ViewTeacher',params: {id:s.id}}">
+        <router-link :to="{name: 'ViewTeacher',params: {id:s.surname+'-'+s.name}}">
           <div class="name" @click="getId(s.id)">{{s.surname}} {{s.name}}</div>
         </router-link>
         <div class="phone">{{s.phone}}</div>
