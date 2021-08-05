@@ -4,8 +4,7 @@
       <div class="btitle">O'quvchilar</div>
       <div class="search">
         <input type="text" v-model="search" placeholder="search student" @input="show()">
-
-        <router-link to="/students/student-edit">
+        <router-link to="/students/new-student">
           <button class="add__btn">
             <svg width="30" height="24" viewBox="0 0 30 24"
               fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,9 +20,7 @@
           <div class="name" @click="getId(s.id)">{{s.surname}} {{s.name}}</div>
         </router-link>
         <div class="phone">{{s.phone}}</div>
-
       </div>
-
     </div>
   </div>
 </template>
@@ -48,7 +45,3 @@
     }
   }
 </script>
-
-<style>
-
-</style>

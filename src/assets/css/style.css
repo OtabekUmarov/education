@@ -52,6 +52,10 @@ input {
 input:focus {
   box-shadow: 0px 0px 10px #118AB2;
 }
+input[type=checkbox], 
+input[type=radio] {
+  box-shadow: unset;
+} 
 a {
   text-decoration: none;
   transition: 0.3s;
@@ -264,7 +268,7 @@ ul {
   box-shadow: 0px 0px 12px #118AB2;
   padding: 24px 33px;
   border-radius: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .fanlar .title {
   font-size: 18px;
@@ -381,6 +385,9 @@ input[type=checkbox] {
   background-color: #118AB2;
   color: #fff;
 }
+.groups {
+  margin-top: 25px;
+}
 .groups a {
   color: #000;
 }
@@ -468,4 +475,61 @@ input[type=checkbox] {
 }
 .mtitle.tc {
   text-align: center;
+}
+.month__btn {
+  background-color: #118AB2;
+  border-radius: 12px;
+  width: 36px;
+  height: 36px;
+  margin-left: 20px;
+}
+.month__btn span {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  position: relative;
+  transform: translateY(-3px);
+}
+.month__btn span::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transform: rotate(90deg);
+  background-color: inherit;
+}
+.clear__btn {
+  position: absolute;
+  top: -17px;
+  right: -17px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #118AB2;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clear__btn span {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+}
+.clear__btn span::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotate(90deg);
 }

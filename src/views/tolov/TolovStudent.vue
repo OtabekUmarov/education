@@ -10,13 +10,16 @@
         <div class="col-4">
           <div class="month">
             <div class="title">Oy:</div>
-            <div class="mtitle">Dekabr</div>
-            <div class="title">To'lov summmasi:</div>
+            <div class="mtitle">{{month[new Date().getMonth()]}}</div>
+            <div class="title">To'lov summasi:</div>
             <div class="mtitle">50, 000 so’m</div>
           </div>
         </div>
         <div class="col-4">
           <div class="month none">
+            <button class="clear__btn">
+              <span></span>
+            </button>
             <label>
               <div class="title">Oy:</div>
               <select>
@@ -26,6 +29,7 @@
             <label>
               <div class="title">To’lov miqdori:</div>
               <input type="number" step="10000" value="50000">
+              <button class="month__btn"><span></span></button>
             </label>
           </div>
         </div>

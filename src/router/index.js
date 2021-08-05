@@ -35,12 +35,22 @@ const routes = [
     component: () => import('../views/student/Modal.vue'), 
   },
   {
+    path: '/students/new-student',
+    name: 'edit',
+    component: () => import('../views/student/Modal.vue'), 
+  },
+  {
     path: '/students/:id',
     name: 'ViewStudent',
     component: () => import('../views/student/ViewStudent.vue'), 
   },
   {
     path: '/teachers/teacher-edit',
+    name: 'editTech',
+    component: () => import('../views/teacher/Modal.vue'), 
+  },
+  {
+    path: '/teachers/new-teacher',
     name: 'editTech',
     component: () => import('../views/teacher/Modal.vue'), 
   },

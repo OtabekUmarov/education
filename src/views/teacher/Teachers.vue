@@ -5,7 +5,7 @@
       <div class="search">
         <input type="text" v-model="searchTeach" placeholder="search teacher" @input="show()">
 
-        <router-link to="/teachers/teacher-edit">
+        <router-link to="/teachers/new-teacher">
           <button class="add__btn">
             <svg width="30" height="24" viewBox="0 0 30 24"
               fill="none" xmlns="http://www.w3.org/2000/svg">

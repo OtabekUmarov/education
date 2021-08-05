@@ -162,6 +162,19 @@
       "address": "Toshkent",
       "gender": "Erkak",
       "id": 3
+    },
+    {
+      "fan": [
+        "Ingliz tili",
+        "Rus tili",
+        "Koreys Tili"
+      ],
+      "name": "Alijon",
+      "surname": "Ahmedov",
+      "phone": "+998915550606",
+      "address": "Samarqand",
+      "gender": "Erkak",
+      "id": 4
     }
   ],
   "groups": [

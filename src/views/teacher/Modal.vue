@@ -24,20 +24,20 @@
           <div class="title">Qaysi fanlarni biladi:
           </div>
           <label class="title" v-for="(f,index) of fanlar" :key='index'>
-            {{f}}
             <input type="checkbox" v-model="teacher.fan" :value="f">
+            {{f}}
           </label>
           <div class="title">
             Jinsi:
           </div>
           <div class="gender">
             <label class="title">
-            Erkak 
             <input type="radio" v-model="teacher.gender" name="gender" value="Erkak">
+            Erkak 
           </label>
           <label class="title">
-            Ayol 
             <input type="radio" v-model="teacher.gender" name="gender" value="Ayol">
+            Ayol 
           </label>
           </div>
           <div class="btns">

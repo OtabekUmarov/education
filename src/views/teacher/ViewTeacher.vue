@@ -17,6 +17,13 @@
           <div class="value">{{view.gender}}</div>
           <button class="edit__btn" @click="edit(view)"><router-link  to="/teachers/teacher-edit">O’zgartirish</router-link></button>
         </div>
+          <div class="fanlar col-4">
+          <div class="title">O'qitadigan fanlar:</div>
+          <div class="box box1" v-for="(fan,index) of view.fan" :key="index">
+            <div class="title">Fan nomi:</div>
+            <div class="value">{{fan}}</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

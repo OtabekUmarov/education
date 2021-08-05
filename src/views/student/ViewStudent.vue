@@ -21,11 +21,11 @@
         </div>
         <div class="fanlar col-4">
           <div class="title">Fanlar:</div>
-          <div class="box box1">
+          <div class="box box1" v-for="(fan,index) of view.fan" :key="index">
             <div class="title">Fan nomi:</div>
-            <div class="value">{{view.fan.join(', ')}}</div>
+            <div class="value">{{fan}}</div>
             <div class="title">Guruh raqami:</div>
-            <div class="value">{{view.group.join(', ')}}</div>
+            <div class="value">{{view.group[index]}}</div>
           </div>
         </div>
       </div>
